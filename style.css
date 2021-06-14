@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Merriweather:ital,wght@0,700;1,300&family=Reenie+Beanie&display=swap');
+html * {
+    margin: 0;
+}
+body {
+    text-align: justify;
+    /* imagem de fundo */
+    background-image: url(./img/photo-1474366521946-c3d4b507abf2.jpg);
+    /* remover repetição */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* cor de fundo */
+    background-color: white;
+    background-attachment: fixed;
+}
+#cabecalho {
+    height: 20vh;
+    text-align: center;
+    font-family:'Covered By Your Grace', cursive;
+    font-weight: 400;
+}
+#corpo {
+    height: 60vh;
+    text-align: justify;
+    line-height: 35px;
+    font-family:'Merriweather', serif;
+    font-size: small;
+    font-style: normal;
+    
+}
+#rodape {
+    height: 20vh;
+    text-align: center;
+    font-family:'Reenie Beanie', cursive;
+    font-weight: normal;
+}
+.icones {
+    width: 60px}
